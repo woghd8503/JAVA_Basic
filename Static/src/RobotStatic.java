@@ -13,6 +13,7 @@ public class RobotStatic
 		this.name = name;
 		
 		robotCount += 1; // Robot
+		id = robotCount;
 		
 	}
 	public static void main(String args[])

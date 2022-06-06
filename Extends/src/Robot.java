@@ -3,7 +3,7 @@ public class Robot {
 	int x, y;
 
 	void mySituation() {
-		System.out.print("나의 위치 x: " + x + " , y: " + y);
+		System.out.println("나의 위치 x: " + x + " , y: " + y);
 	}
 }
 
@@ -17,7 +17,7 @@ class FishRobot extends Robot {
 	}
 
 	void swim() {
-		System.out.print("물고기로봇 수심: " + depth + "m");
+		System.out.println("물고기로봇 수심: " + depth + "m");
 	}
 }
 
@@ -31,6 +31,6 @@ class DroneRobot extends Robot {
 	}
 
 	void fly() {
-		System.out.print("드론로봇 높이 " + altitude + "m");
+		System.out.println("드론로봇 높이 " + altitude + "m");
 	}
 }
